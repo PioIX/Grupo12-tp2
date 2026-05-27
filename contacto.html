@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flowey</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+	<header>
+		<div class="prenav">
+			<img id="logo" src="./imagenes/logo.PNG" >
+			<hr>
+			</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+				<li><a href="reseñas.html">Reseñas</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h3 id="despuesMainContacto">Consultas, reclamos, dudas</h3>
+		<form action="https://formspree.io/f/xgvkbopp"  method="POST">
+			<input type="text"  placeholder="Su Nombre" name="nombre" required>
+			<input type="email" placeholder="Su Email"  name="email" required>
+			<textarea rows="5" cols="30" placeholder="Su consulta" name="message" required></textarea>
+			<button type="submit">Enviar mensaje</button>
+		</form>
+		
+	</main>
+	
+<footer>
+	<hr>
+	<h4>Tu mejor amigo para insumos del agro</h4>
+</footer>
+</body>
+</html>
